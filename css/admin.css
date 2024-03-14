@@ -1,0 +1,70 @@
+/*
+Author:Rifah Ramisa Ferdous ;
+Theme:Food Order Website Admin;
+Version: 1.0; 
+*/
+ *{
+   margin:0;
+   padding:0;
+   font-family: Arial, Helvetica, sans-serif;
+ } 
+.wrapper{
+  
+  padding: 1%;
+  width: 80%;
+  margin:0 auto;
+}
+.text-center{
+  text-align: center;
+}
+.clearfix{
+  float: none;
+  clear: both;
+}
+.tbl-full{
+  width: 100%;
+}
+table tr th{
+  border-bottom: 1px solid black;
+}
+
+
+/*CSS for Menu*/
+.Menu{
+  border-bottom: 1px solid black ;
+}
+
+.Menu ul{
+  list-style-type:none ;
+}
+.Menu ul li{
+display : inline;
+padding: 1%;
+}
+.Menu ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #f3a683;
+}
+.Menu ul li a:hover{
+color: #e15f41;
+}
+/*Css for Main content*/
+.main-content{
+background-color:  #ececec;
+padding:3% 0 ;
+}
+
+.col-4{
+  width: 18%;
+  background-color: white;
+  margin:1% ;
+  padding: 2%;
+  float: left;
+}
+
+/*CSS for Footer*/
+.footer{
+  background-color: #e15f41;
+  color: white;
+}
